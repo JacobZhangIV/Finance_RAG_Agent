@@ -19,6 +19,7 @@ env/
 
 # 不需要上传的文件
 AlanDurf/
+Related Papers/
 Report_Crawer/CN_CNINF_report/年报文件/
 Report_Crawer/US_SEC_report/data/
 *.pdf

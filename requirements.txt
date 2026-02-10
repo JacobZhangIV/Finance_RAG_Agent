@@ -1,0 +1,18 @@
+# 巨潮年报
+jieba>=0.42.1
+openpyxl>=3.1.5
+pandas>=2.2.0
+pdfplumber>=0.11.0
+requests>=2.28.0
+xlwt>=1.3.0
+
+# PDF 备用解析
+PyPDF2>=3.0.0
+pdfminer.six>=20221105
+
+# SEC 财报
+beautifulsoup4>=4.11.0
+
+# RAG
+openai>=1.0.0
+numpy>=1.20.0
