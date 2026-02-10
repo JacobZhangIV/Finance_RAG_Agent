@@ -1,0 +1,27 @@
+# Python 缓存与编译产物
+__pycache__/
+*.pyc
+
+# 虚拟环境（别人会自己建）
+.venv/
+venv/
+env/
+
+# IDE 与系统
+.idea/
+.vscode/
+.DS_Store
+
+# 日志与临时文件
+*.log
+*.tmp
+.ipynb_checkpoints/
+
+# 不需要上传的文件
+AlanDurf/
+Report_Crawer/CN_CNINF_report/年报文件/
+Report_Crawer/US_SEC_report/data/
+*.pdf
+*.html
+*.xlsx
+*.json
