@@ -16,12 +16,29 @@ env/
 *.log
 *.tmp
 .ipynb_checkpoints/
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
+*.db
+*.jsonl
+*.npy
+*.npz
 
-# 不需要上传的文件
+# 不需要上传的顶层目录
 AlanDurf/
+Examplar_Programs/RAG_investment assistant/FinanceRAG-Investment-Research-Assistant/
 Related Papers/
-Report_Crawer/CN_CNINF_report/年报文件/
-Report_Crawer/US_SEC_report/data/
+
+# Report_Crawer 中的原始数据和生成数据不上传，只保留代码
+Report_Crawer/01_CN_CNINF_report/年报文件/
+Report_Crawer/02_US_SEC_report/data/
+Report_Crawer/03_Data_Processor/CN/parsed_filings/
+Report_Crawer/03_Data_Processor/US/parsed_filings/
+Report_Crawer/04_Embedding/chunked_data/
+Report_Crawer/04_Embedding/embedding_store/
+Report_Crawer/04_Embedding/99*.ipynb
+
+# 通用大文件
 *.pdf
 *.html
 *.xlsx
